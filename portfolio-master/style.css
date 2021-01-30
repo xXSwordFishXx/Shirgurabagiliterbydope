@@ -1,0 +1,16 @@
+.hot_cat{
+    position: relative;
+}
+.hot_cat p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.hot_cat:hover p{
+    opacity:1;
+}
+.hot_cat:hover img{
+    opacity:0.33;
+}
